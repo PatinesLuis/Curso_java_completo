@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Triangulo_POO</name>
+	<name>ContaBancaria_POO</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1694773079868</id>
+			<id>1695775915944</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

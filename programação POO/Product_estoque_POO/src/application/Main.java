@@ -10,19 +10,20 @@ public class Main {
 
 		Scanner ler = new Scanner(System.in);
 		
-		Product p = new Product();
 		
 		System.out.println("Entre com os produtos");
 		
 		System.out.println("Nome:");
-		p.nome = ler.next();
+		String nome = ler.next();
 		
 		System.out.println("Preço:");
-		p.preco = ler.nextDouble();
+		double preco = ler.nextDouble();
 		
 		System.out.println("Qtd:");
-		p.qtd = ler.nextInt();
+		int qtd = ler.nextInt();
 		
+		Product p = new Product(nome, preco, qtd);
+	
 		System.out.println(p);
 		
 		System.out.println("Adicione um novo estoque: ");
