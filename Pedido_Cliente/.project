@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>enumeracoes</name>
+	<name>Pedido_Cliente</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1701655446538</id>
+			<id>1702349316781</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
