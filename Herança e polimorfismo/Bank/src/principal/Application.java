@@ -2,7 +2,9 @@ package principal;
 
 import java.util.Scanner;
 
+import entities.Account;
 import entities.BusinessAccount;
+import entities.SavingsAccount;
 
 public class Application {
 	
@@ -30,5 +32,15 @@ public class Application {
 
         System.out.println("Olá " + ba2.getHolder() + " Bem-vindo(a) - Conta: " + ba2.getNumber() + " Seu saldo é: " + ba2.getBalance());
 
+        
+        System.out.println("---- TESTE DE SOBREPOSIÇÃO --------");
+        
+        Account acc1 = new Account(1001, "Alex", 1000.0);
+        acc1.withdraw(200.0);
+        System.out.println(acc1.getBalance());
+        Account acc2 = new SavingsAccount(1002, "maria",1000.0, 0.01);
+        acc2.withdraw(200.0);
+        System.out.println(acc2.getBalance());
+       
     }
 }
